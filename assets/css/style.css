@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f6f7fd;
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -721,6 +722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #faq {
   padding: 60px 0;
+  margin-top: 50px;
 }
 
 #faq #faq-list {
@@ -775,6 +777,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
 }
+
+/*rsvp section*/
+.rsvp{
+  background-color:  #f6f7fd;
+  margin-top:20px;
+  padding: 20px;
+}
+
+/*organized-by sec*/
+.organized-by-sec{
+  background-color:white;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
