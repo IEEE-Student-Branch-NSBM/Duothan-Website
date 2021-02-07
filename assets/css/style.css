@@ -629,13 +629,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  /*background: url("../img/about-bg.jpg");*/
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  text-align: justify;
 }
+
 
 @media (min-width: 1024px) {
   #about {
@@ -661,7 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -669,7 +671,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -679,6 +681,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #schedule {
   padding: 60px 0 60px 0;
+}
+
+.schedule-box-deck{
+  display: inline-block;
+  display:flex;
+}
+
+.schedule-box{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  justify-content:center;
+  /* text-align: center; */
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: #2f3138;
+  display: inline-block;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.schedule-h2{
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.schedule-box-span{
+  text-align: center;
+  font-size: 20px;
+  color:white;
 }
 
 /*--------------------------------------------------------------
