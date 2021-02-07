@@ -683,6 +683,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 60px 0;
 }
 
+.schedule-box-deck{
+  display: inline-block;
+  display:flex;
+}
+
+.schedule-box{
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  justify-content:center;
+  /* text-align: center; */
+  padding: 15px;
+  border-radius: 16px;
+  box-shadow: #2f3138;
+  display: inline-block;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.schedule-h2{
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.schedule-box-span{
+  text-align: center;
+  font-size: 20px;
+  color:white;
+}
+
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
