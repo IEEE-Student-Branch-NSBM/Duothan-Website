@@ -629,13 +629,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  /*background: url("../img/about-bg.jpg");*/
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  text-align: justify;
 }
+
 
 @media (min-width: 1024px) {
   #about {
@@ -661,7 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -669,7 +671,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
 }
