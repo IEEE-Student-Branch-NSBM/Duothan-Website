@@ -630,7 +630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  /*background: url("../img/about-bg.jpg");*/
+  background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -648,7 +648,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about:before {
   content: "";
-  background: rgba(229, 33, 69, 0.644);
+  background: #e5214580;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -684,7 +684,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #faq {
   padding: 60px 0;
-  margin-top: 50px;
 }
 
 #faq #faq-list {
@@ -745,11 +744,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
-  padding: 60px 0 60px 0;
-  height: 100vh;
+  margin-top: 80px;
+  height: 140vh;
+  align-items: center !important;
 }
 .timeline{
-  width:80%;
+  width:100%;
   height: auto;
   max-width: 800px;
   margin: 0 auto;
@@ -761,11 +761,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .timeline ul li{
-  padding: 20px;
-  background-color:#1e1f22;
+  text-align: center;
+  background-color:#e52145;
   color: white;
+  padding-top: 20px;
   border-radius: 10px;
-  margin-bottom: 20px;
 }
 
 .timeline ul li:last-child{
@@ -775,7 +775,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .timeline-content{
   justify-content: center;
   align-items: center;
-  
 }
 
 .timeline-content h1{
@@ -790,6 +789,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
+  padding-bottom: 2px !important;
+}
+
+@media (max-width: 768px) {
+  #schedule {
+    height: auto !important;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px){
@@ -800,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 2px;
     left:50%;
     transform: translateX(-50%);
-    background-color: black;
+    background-color: #e52145;
   }
   
   .timeline ul li{
@@ -853,7 +861,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*rsvp section*/
 .rsvp{
   background-color:  #f6f7fd;
-  margin-top:20px;
+  margin-top:-20px;
   padding: 20px;
 }
 
