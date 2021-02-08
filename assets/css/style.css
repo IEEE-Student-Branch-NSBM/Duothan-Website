@@ -4,6 +4,7 @@ body {
   font-family: "open sans", sans-serif !important;
 }
 
+
 a {
   color: #e52145;
   text-decoration: none;
@@ -707,6 +708,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
+#faq #faq-list .link {
+  display: inline;
+  padding-right: 0;
+}
+
+
 #faq #faq-list i {
   font-size: 24px;
   position: absolute;
@@ -748,6 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 140vh;
   align-items: center !important;
 }
+
 .timeline{
   width:100%;
   height: auto;
